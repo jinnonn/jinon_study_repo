@@ -46,9 +46,9 @@ else
 		mkdir $backup_dir 2>> backup_script_error_log
 	fi
 fi
-#
+
 # echo's just for manual testing
-#
+
 echo "Directory to backup: $dir_to_backup"
 echo "Directory WHERE to backup: $backup_dir"
 
