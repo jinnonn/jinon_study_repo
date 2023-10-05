@@ -64,7 +64,7 @@ backup()
 		mkdir $backup_dir/$backup_type 2>> backup_script_error_log
 	fi
 
-	# Beggining to arhive with tar + bzip2 compression
+	# Begining to arhive with tar + bzip2 compression
 
 	tar_name=$(date +%Y-%m-%d_%H-%M-%S_"$dir_to_backup" | tr / "+" 2> /dev/null) # "+" is instead of "/" because tar working painfully with "/" in name of archive
 	echo "Tar name is $tar_name"
@@ -141,7 +141,7 @@ if [ "$(date +%d-%m)" == "31-12" ]; then # making backups every 31 December
 	backup_type="yearly"
 	backup $dir_to_backup $backup_dir $backup_type
 fi
-if [ "$(date +%d)" == "01" ]; then # macking backups every first day of the month
+if [ "$(date +%d)" == "01" ]; then # making backups every first day of the month
 	backup_type="monthly"
 	backup $dir_to_backup $backup_dir $backup_type
 fi
