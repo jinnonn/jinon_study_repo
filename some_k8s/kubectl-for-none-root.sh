@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
