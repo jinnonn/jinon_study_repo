@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 apt-get update
 # apt-transport-https may be a dummy package; if so, you can skip that package
