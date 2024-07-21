@@ -1,5 +1,10 @@
 # jinon_study_repo
 ---
+## P.S. DEPRICATED INFO BELOW
+I ended up my studiying and currently working as DevOps engineer, and too lazy to edit that info :Ь 
+
+---
+
 Just some repo for my DevOps/SRE/Coding studying.
 Here i will be sharing some scripts/codes for storaging my studying progress.
 
